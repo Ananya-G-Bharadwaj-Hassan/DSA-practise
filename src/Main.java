@@ -8,6 +8,10 @@ class dsa {
         int n = sc.nextInt();
         System.out.println("Enter the elements in the array");
         int[] arr = new int[n];
+
+        for(int i=0; i<arr.length;i++){
+            arr[i]=sc.nextInt();
+        }
         int i = arr[0];
         int j = arr[n - 1];
         while (i < j) {
@@ -17,7 +21,7 @@ class dsa {
         }
         i++;
         j--;
-        for (int k = 0; k < n; k++) {
+        for (int k = 0; k <=n; k++) {
             System.out.println(arr[k]);
         }
     }
