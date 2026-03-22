@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 class dsa {
@@ -9,19 +8,20 @@ class dsa {
         System.out.println("Enter the elements in the array");
         int[] arr = new int[n];
 
-        for(int i=0; i<arr.length;i++){
+        for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        int i = arr[0];
-        int j = arr[n - 1];
+
+        int i = 0;
+        int j = n - 1;
         while (i < j) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
+            i++;
+            j--;
         }
-        i++;
-        j--;
-        for (int k = 0; k <=n; k++) {
+        for (int k = 0; k <n; k++) {
             System.out.println(arr[k]);
         }
     }
