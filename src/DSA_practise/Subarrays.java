@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class subarrays{
+class Subarrays{
     public static void main(String[] args) {
         System.out.println("Enter the number of elements in the array");
         Scanner sc=new Scanner(System.in);
