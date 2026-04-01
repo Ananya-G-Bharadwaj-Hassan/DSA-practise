@@ -2,7 +2,7 @@ package DSA_practise;
 
 import java.util.Scanner;
 
-class minmaxarray {
+class MinMaxArray {
     public static void main(String[] args) {
         //number of elements in the array and the elements input
         System.out.println("Enter the number of elements");

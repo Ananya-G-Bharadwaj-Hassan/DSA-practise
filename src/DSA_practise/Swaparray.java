@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class swap{
+class Swap{
     public static void main(String[] args) {
         //user input and calling the function
         int[] arr={2,3,4,6,5};
