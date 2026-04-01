@@ -5,6 +5,7 @@ class countofdigits{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
 
+        //counting the digits by retrieving the last digit
         int count=0;
         while(n>0){
             count+=1;

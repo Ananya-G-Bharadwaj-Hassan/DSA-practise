@@ -1,7 +1,10 @@
+package DSA_practise;
+
 import java.util.Scanner;
 
 class minmaxarray {
     public static void main(String[] args) {
+        //number of elements in the array and the elements input
         System.out.println("Enter the number of elements");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class Max{
     public static void main(String[] args) {
+        //number of elements in the array and the elements input
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of elements");
         int n=sc.nextInt();
@@ -10,6 +11,8 @@ class Max{
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+
+        //finding the max element
         int max=0;
         for(int i=0;i<n;i++){
             if(arr[i]>max){

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 class Reverse {
     public static void main(String args[]) {
+        //number of elements in the array and the elements input
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of elements in the array");
         int n = sc.nextInt();
@@ -14,6 +15,7 @@ class Reverse {
             arr[i]=sc.nextInt();
         }
 
+        //swapping the elements to reverse the array
         int i = 0;
         int j = n - 1;
         while (i < j) {
