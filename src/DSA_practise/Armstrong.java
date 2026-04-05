@@ -2,7 +2,7 @@ package DSA_practise;
 
 import java.util.Scanner;
 
-class armstrong{
+class Armstrong{
     public static void main(String[] args) {
         //number input
         System.out.println("Enter a number");
