@@ -1,4 +1,5 @@
-import java.util.Scanner;
+package DSA_practise;
+
 class vowel {
     public static void main(String[] args) {
         String s="Hello";
