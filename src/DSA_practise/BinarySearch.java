@@ -2,7 +2,7 @@ package DSA_practise;
 
 import java.util.Arrays;
 
-public class BinarySearch{
+public class inarySearch{
     //main function
     public static void main(String[] args) {
         int[] arr={-18,3,56,9,-65,98,100,0,-2};
