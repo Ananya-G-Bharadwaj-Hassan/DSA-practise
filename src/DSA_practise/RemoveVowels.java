@@ -1,11 +1,7 @@
 package DSA_practise;
 
-<<<<<<< HEAD
-class vowel {
-=======
 import java.util.Scanner;
 class Vowel {
->>>>>>> feef59691f14ffd3e40520b2b02d1ad0c430aa90
     public static void main(String[] args) {
         String s="Hello";
         RemoveVowels(s);
