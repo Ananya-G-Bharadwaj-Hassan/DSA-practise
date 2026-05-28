@@ -4,7 +4,7 @@ class Main {
         selectionsort(arr);
     }
 
-    public static void selectionsort(int[] arr) {
+    public static void SelectionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minval = arr[i];
             int minidx = i;
