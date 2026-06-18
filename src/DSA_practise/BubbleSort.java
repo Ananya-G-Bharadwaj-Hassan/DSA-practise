@@ -1,10 +1,10 @@
 package DSA_practise;
 
 //main function
-class bubblesort {
+class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {5, 6, 2, 9, 4, 1};
-        bubblesort(arr);
+        ubblesort(arr);
     }
 
     //bubblesort function
