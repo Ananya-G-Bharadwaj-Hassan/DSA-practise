@@ -1,11 +1,9 @@
 class Main {
-    //main function
     public static void main(String[] args) {
         int[] arr = {5, 6, 2, 9, 4, 1};
         selectionsort(arr);
     }
 
-    //selection sort function
     public static void selectionsort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minval = arr[i];
@@ -16,14 +14,12 @@ class Main {
                     minidx = j;
                 }
             }
-            //swap
             int temp=arr[i];
             arr[i]=arr[minidx];
             arr[minidx]=temp;
         }
-        //print array
         for(int val:arr){
-            System.out.print(val);
+            System.out.println(val);
         }
     }
 }
