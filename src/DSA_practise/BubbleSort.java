@@ -4,7 +4,7 @@ package DSA_practise;
 class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {5, 6, 2, 9, 4, 1};
-        ubblesort(arr);
+        bubblesort(arr);
     }
 
     //bubblesort function
