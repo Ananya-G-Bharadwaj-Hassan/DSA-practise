@@ -1,4 +1,4 @@
-class increase{
+class PrintIncrease{
     public static void main(String[] args) {
         printincreasing(7);
     }
