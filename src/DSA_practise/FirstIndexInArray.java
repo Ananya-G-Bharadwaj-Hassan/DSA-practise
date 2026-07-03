@@ -1,6 +1,6 @@
 package DSA_practise;
 
-class firstindex{
+class FirstIndex{
     public static void main(String[] args) {
        int[] arr={1,2,3,2,5,3,6,2};
        int x=3;
