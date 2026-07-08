@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class cyclicsort{
+class CyclicSort{
     public static void main(String[] args) {
         int[] arr={1,4,2,3,5};
         cyclicsort(arr);
