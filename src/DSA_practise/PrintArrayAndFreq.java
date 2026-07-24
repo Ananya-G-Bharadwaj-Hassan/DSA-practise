@@ -3,6 +3,7 @@ class Arr{
     public static void main(String[] args) {
         //main function
         int[] arr={1,2,3,2,5,3,6,2};
+        //method 
         ArrayAndFreq.freqSorted(arr);
         System.out.println(Arrays.toString(arr));
     }
