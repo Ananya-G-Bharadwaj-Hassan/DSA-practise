@@ -29,5 +29,4 @@ class Queues{
        //search
        System.out.println(queue.contains(30));
    }
->>>>>>> ba8aad0d8176e009cbd7962cea871fef2044f5d8
 }
