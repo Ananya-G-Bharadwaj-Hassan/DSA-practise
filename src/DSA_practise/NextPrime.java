@@ -1,3 +1,4 @@
+package DSA_practise;
 public class NextPrime {
     // Method to check if a number is prime
     public static boolean isPrime(int num) {

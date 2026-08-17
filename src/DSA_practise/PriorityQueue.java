@@ -1,10 +1,12 @@
+package DSA_practise;
+
 import java.util.PriorityQueue;
 
 class pq{
     public static void main(String[] args) {
         PriorityQueue<Integer> pq=new PriorityQueue<>();
         //to change the priority do
-        // PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+        // PriorityQueue<Integer> DSA_practise.pq=new PriorityQueue<>(Collections.reverseOrder());
 
         //put(O(logn))
         pq.add(10);

@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class Solution {
     public static boolean isPalindrome(String s) {
         // Convert to lowercase and remove non-alphanumeric characters
