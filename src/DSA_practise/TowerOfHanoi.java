@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class TOH {
     int count=0;
     public int towerOfHanoi(int n, int from, int to, int aux) {

@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class PrimeFactors{
     static int largestPrimeFactor(int n) {
         // code here
