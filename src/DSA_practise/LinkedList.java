@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class Linkedlist{
     Node head;
 

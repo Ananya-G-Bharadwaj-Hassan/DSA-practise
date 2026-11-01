@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class powerOf2 {
     public boolean isPowerofTwo(int n) {
         // code here

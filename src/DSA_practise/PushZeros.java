@@ -1,3 +1,5 @@
+package DSA_practise;
+
 import java.util.*;
 
 class zeros {
