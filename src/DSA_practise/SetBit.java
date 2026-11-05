@@ -1,3 +1,5 @@
+package DSA_practise;
+
 class SetBit {
     public int findPosition(int n) {
         // code here
